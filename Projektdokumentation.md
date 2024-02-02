@@ -23,27 +23,14 @@ In diesem Projekt entwickeln wir einen Instagram Bot mit der Programmiersprache 
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |       muss         |   funktional   | Als User möchte ich    |
+| 1    |       Kann         |   Optional   | Als User möchte ich, dass der Bot mit einer AI verbunden ist um mit einer Person Chaten zu können   |
 | 2    |       muss         |   funktional   |  Als User möchte ich, dass sich der Bot selbstständig im Account einloggen kann.  |
 | 3    |       muss         |   funktional   |Als User möchte ich mit dem Bot chatten können.  |
-| 4    |       kann         |   funktional   | Als User möchte ich, dass der Bot Leuten Folgen kann   |
+| 4    |       kann         |   Qualität   | Als User möchte ich, dass der Bot Leuten Folgen kann   |
 | 5    |       kann        |   funktional   |  Als User möchte ich, dass der Bot Bilder von anderen Instagram Users liken kann.  |
-| 6    |       muss         |   funktional   |   |
-| 7    |       muss         |   funktional   |    |
-| 8    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
-| 9    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
-| 10    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
-| 11    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
-| 12    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
-| 13    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
-| 14    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
-| 15    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
-| 16    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
-| 17    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
-| 18    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
-| 19    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
-| 20    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
-| 21    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 6    |       muss         |   funktional   |Als User möchte ich, dass der Bot selbst auf die Instagramm Webseite geht   |
+| 7    |       muss         |   funktional   |Als User möchte ich, dass der Bot einer Person eine Nachricht senden kann    |
+| 8    |       muss         |   funktional   | Als User möchte ich, dass ich die Nachricht die der Bot der Person auf Instagram anpassen kann   |
 
 
 
@@ -56,6 +43,34 @@ In diesem Projekt entwickeln wir einen Instagram Bot mit der Programmiersprache 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 2.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 3.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 4.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 5.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 6.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 7.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 8.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 9.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 10.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 11.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 12.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 13.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 14.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 15.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 16.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 17.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 18.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 19.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 21.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 22.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 23.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 24.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 25.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 26.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 27.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 28.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 29.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 30.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
 
 
 
