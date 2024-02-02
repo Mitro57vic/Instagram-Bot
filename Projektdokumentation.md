@@ -43,8 +43,8 @@ In diesem Projekt entwickeln wir einen Instagram Bot mit der Programmiersprache 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  |        Programm wird gestartet    |  Keine     |     Bot loggt sich im Instagram Account ein.          |
-| 2.1  |     Programm wird gestartet        |  Keine     |               |
-| 3.1  |       Programm wird gestartet        |  Der User schaut sich um     |             |
+| 2.1  |     Programm wird gestartet        |  User schickt Nachricht ab    |     Bot antwortet entsprechend der Nachricht vom User.          |
+| 3.1  |       Programm wird gestartet        |  Cookies werden vorgeschlagen    |     Bot akzeptiert Cookies.        |
 | 4.1  |       Programm wird gestartet        |  Der User schaut sich um     |              |
 | 5.1  |      Programm wird gestartet       |  Der User schaut sich um     |             |
 | 6.1  |       Programm wird gestartet        |  Der User schaut sich um     |            |
