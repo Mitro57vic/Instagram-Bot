@@ -44,15 +44,15 @@ In diesem Projekt entwickeln wir einen Instagram Bot mit der Programmiersprache 
 | ---- | ------------ | ------- | ----------------- |
 | 1.1  |        Programm wird gestartet    |  Der User schaut sich um     |               |
 | 2.1  |     Programm wird gestartet        |  Der User schaut sich um     |               |
-| 3.1  |      Website ist geöffnet        |  Der User schaut sich um     |             |
-| 4.1  |      Website ist geöffnet        |  Der User schaut sich um     |              |
-| 5.1  |      Website ist geöffnet        |  Der User schaut sich um     |             |
-| 6.1  |      Website ist geöffnet        |  Der User schaut sich um     |            |
-| 7.1  |      Website ist geöffnet        |  Der User schaut sich um     |             |
-| 8.1  |      Website ist geöffnet        |  Der User schaut sich um     |               |
-| 9.1  |      Website ist geöffnet        |  Der User schaut sich um     |             |
-| 10.1  |      Website ist geöffnet        |  Der User schaut sich um     |            |
-| 11.1  |      Website ist geöffnet        |  Der User schaut sich um     |             |
+| 3.1  |       Programm wird gestartet        |  Der User schaut sich um     |             |
+| 4.1  |       Programm wird gestartet        |  Der User schaut sich um     |              |
+| 5.1  |      Programm wird gestartet       |  Der User schaut sich um     |             |
+| 6.1  |       Programm wird gestartet        |  Der User schaut sich um     |            |
+| 7.1  |       Programm wird gestartet       |  Der User schaut sich um     |             |
+| 8.1  |      Programm wird gestartet       |  Der User schaut sich um     |               |
+| 9.1  |       Programm wird gestartet       |  Der User schaut sich um     |             |
+| 10.1  |      Programm wird gestartet       |  Der User schaut sich um     |            |
+| 11.1  |       Programm wird gestartet       |  Der User schaut sich um     |             |
 
 
 
