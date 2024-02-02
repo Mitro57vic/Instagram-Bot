@@ -42,35 +42,18 @@ In diesem Projekt entwickeln wir einen Instagram Bot mit der Programmiersprache 
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 2.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 3.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 4.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 5.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 6.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 7.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 8.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 9.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 10.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 11.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 12.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 13.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 14.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 15.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 16.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 17.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 18.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 19.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 21.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 22.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 23.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 24.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 25.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 26.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 27.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 28.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 29.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
-| 30.1  |      Website ist geöffnet        |  Der User schaut sich um     |      Schöne Website mit gut gegliederten Elementen         |
+| 1.1  |        Programm wird gestartet    |  Der User schaut sich um     |               |
+| 2.1  |     Programm wird gestartet        |  Der User schaut sich um     |               |
+| 3.1  |      Website ist geöffnet        |  Der User schaut sich um     |             |
+| 4.1  |      Website ist geöffnet        |  Der User schaut sich um     |              |
+| 5.1  |      Website ist geöffnet        |  Der User schaut sich um     |             |
+| 6.1  |      Website ist geöffnet        |  Der User schaut sich um     |            |
+| 7.1  |      Website ist geöffnet        |  Der User schaut sich um     |             |
+| 8.1  |      Website ist geöffnet        |  Der User schaut sich um     |               |
+| 9.1  |      Website ist geöffnet        |  Der User schaut sich um     |             |
+| 10.1  |      Website ist geöffnet        |  Der User schaut sich um     |            |
+| 11.1  |      Website ist geöffnet        |  Der User schaut sich um     |             |
+
 
 
 
