@@ -45,9 +45,9 @@ In diesem Projekt entwickeln wir einen Instagram Bot mit der Programmiersprache 
 | 1.1  |        Programm wird gestartet    |  Keine     |     Bot loggt sich im Instagram Account ein.          |
 | 2.1  |     Programm wird gestartet        |  User schickt Nachricht ab    |     Bot antwortet entsprechend der Nachricht vom User.          |
 | 3.1  |       Programm wird gestartet        |  Cookies werden vorgeschlagen    |     Bot akzeptiert Cookies.        |
-| 4.1  |       Programm wird gestartet        |  Der User schaut sich um     |              |
-| 5.1  |      Programm wird gestartet       |  Der User schaut sich um     |             |
-| 6.1  |       Programm wird gestartet        |  Der User schaut sich um     |            |
+| 4.1  |       Programm wird gestartet        | Startseite wird gezeigt     |  Der Bot geht auf die Nachrichten Option            |
+| 5.1  |      Programm wird gestartet       | Die Personen denen man schreiben kann werden angezigt     |  Die gewünste Person wird ausgewählt           |
+| 6.1  |       Programm wird gestartet        | Der Chat zwischen de,     |            |
 | 7.1  |       Programm wird gestartet       |  Der User schaut sich um     |             |
 | 8.1  |      Programm wird gestartet       |  Der User schaut sich um     |               |
 | 9.1  |       Programm wird gestartet       |  Der User schaut sich um     |             |
