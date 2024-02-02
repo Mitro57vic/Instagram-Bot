@@ -7,8 +7,9 @@ Filip Mitrovic, Lennard Bühler, Filip Kritzner und Raul Gilardoni
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|   19.01.2024   | 0.0.1   | Wir haben in der Gruppe ein Thema ausgesucht für dieses Projekt |
-
+|   19.01.2024   | 0.0.1   | Wir haben in der Gruppe ein Thema ausgesucht für dieses Projekt  |
+|  26.01.2024     |   0.0.2      |        Wir haben mit youtube tutorials den einstieg gemacht und den ganzen Tag daran gearbeitet das der Bot Instagramm startet, sich selbst einlogt und auf die Chats geht                |
+|   02.02.2024   | 0.0.3   | Wir haben den ganzen Tag unseren Bot weiter programmiert und uns mit dem Thema im Internet befasst  |
 
 ## 1 Informieren
 
@@ -22,7 +23,28 @@ In diesem Projekt entwickeln wir einen Instagram Bot mit der Programmiersprache 
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 1    |       muss         |   funktional   | Als User möchte ich    |
+| 2    |       muss         |   funktional   |  Als User möchte ich, dass sich der Bot selbstständig im Account einloggen kann.  |
+| 3    |       muss         |   funktional   |Als User möchte ich mit dem Bot chatten können.  |
+| 4    |       kann         |   funktional   | Als User möchte ich, dass der Bot Leuten Folgen kann   |
+| 5    |       kann        |   funktional   |  Als User möchte ich, dass der Bot Bilder von anderen Instagram Users liken kann.  |
+| 6    |       muss         |   funktional   |   |
+| 7    |       muss         |   funktional   |    |
+| 8    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 9    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 10    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 11    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 12    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 13    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 14    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 15    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 16    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 17    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 18    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 19    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 20    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+| 21    |       muss         |   funktional   | Als User möchte ich eine attraktiv aussehende Website.   |
+
 
 
 
