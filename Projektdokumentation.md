@@ -133,6 +133,15 @@ Wir haben uns für die geplanten Arbeitspakete entschieden.
 
 
 `Fazit:`
+Das Projekt hat gezeigt, dass die Entwicklung eines Instagram-Bots, der grundlegende Funktionen wie das Einloggen, das Senden und Beantworten von Nachrichten sowie das Akzeptieren von Cookies ausführen kann, machbar ist. Jedoch stellte die Integration einer Künstlichen Intelligenz eine bedeutende Herausforderung dar, die wir in diesem Rahmen nicht bewältigen konnten. 
+
+Die Erfahrung, im Team zu arbeiten, war insgesamt positiv und förderte den Austausch von Wissen und Fähigkeiten. die Temmitglieder hätten alle aber Homeoffice präferiert.
+
+Abschließend lässt sich sagen, dass das Projekt wertvolle Einblicke in die Entwicklung von Bots und die Arbeit im Team geliefert hat. 
+
+
+
+
 
 
 
