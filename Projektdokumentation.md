@@ -115,16 +115,26 @@ Wir haben uns für die geplanten Arbeitspakete entschieden.
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |15.12.23|     Funktioniert      |  Mitrovic      |
-
+| TC-№ | Datum    | Resultat        | Tester         | Laptop                 |
+| ---- | -------- | --------------- | -------------- | ---------------------- |
+| 1.1  | 23.02.24 | Funktioniert    | Mitrovic       | HP Spectre Windows 11  |
+| 2.1  | 23.02.24 | Funktioniert nicht    | Mitrovic       | HP Spectre Windows 11  |
+| 3.1  | 23.02.24 | Funktioniert    | Kritzner       | Acer Windows 11        |
+| 4.1  | 23.02.24 | Funktioniert    | Mitrovic       | HP Spectre Windows 11  |
+| 5.1  | 23.02.24 | Funktioniert    | Kritzner       | Acer Windows 11        |
+| 6.1  | 23.02.24 | Funktioniert    | Mitrovic       | HP Spectre Windows 11  |
+| 7.1  | 23.02.24 | Funktioniert    | Mitrovic       | HP Spectre Windows 11  |
+| 8.1  | 23.02.24 | Funktioniert    | Kritzner       | Acer Windows 11        |
+| 9.1  | 23.02.24 | Funktioniert    | Mitrovic       | HP Spectre Windows 11  |
+| 10.1 | 23.02.24 | Funktioniert nicht   | Kritzner       | Acer Windows 11        |
+| 11.1 | 23.02.24 | Funktioniert    | Mitrovic       | HP Spectre Windows 11  |
+| 12.1 | 23.02.24 | Funktioniert    | Kritzner       | Acer Windows 11        |
 
 
 
 `Fazit:`
 
-Unsere Gaming-Website funktioniert. Alle drei Spiele sind fertig und spielbar. Im Grossen und Ganzen ein gutes Projekt.
+
 
 ## 6 Auswerten
 Reflexion bei unseren Portfolios.
