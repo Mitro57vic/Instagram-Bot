@@ -52,7 +52,9 @@ In diesem Projekt entwickeln wir einen Instagram Bot mit der Programmiersprache 
 | 8.1  |      Programm wird gestartet       |   Der Chat zwischen dem Bot und der anderen Person wird angezeigt       |   Nachricht wird vom Bot gesendet            |
 | 9.1  |       Programm wird gestartet       |   User schickt Nachricht ab   |     Chatbot liest Nachricht        |
 | 10.1  |      Programm wird gestartet       |   Nachricht vom User wurde vom Bot gelesen    |  Chatbot gibt eine Antwort          |
-| 11.1  |       Programm wird gestartet       |     |             |
+| 11.1  |       Chatbot stellt die Frage wie viele Nachrichten der Bot ausgeben soll.      |  User gibt Zahl ein   |     Bot gibt entsprechend viele Nachrichten aus wie viele der Benutzer wollte.        |
+| 12.1  |        Programm wird läuft   |   Nachrichten an Bot schreiben die er ausgeben soll    |     Bot gibt entsprechende Nachrichten aus.         |
+
 
 
 
@@ -64,12 +66,22 @@ In diesem Projekt entwickeln wir einen Instagram Bot mit der Programmiersprache 
 
 
 ## 2 Planen
+Arbeitspakete:
 
 | AP-№ | Zuständig | Beschreibung | geplante Zeit (min) |
 | ---- |  --------- | ------------ | ------------- |
-| 1.A  |   Lennard Bühler              |   Eine Homegage erstellen, welche schön aussieht         |240|
-
-
+| 1.A  |   Filip Mitrovic              |   Einrichten des Instagram-Login-Prozesses im Chatbot-Programm, um sicherzustellen, dass der Bot sich erfolgreich in den Instagram-Account einloggen kann.  |   60 |
+| 2.A  |   Lennard Bühler              |   Implementierung einer Funktion im Chatbot, um auf eingehende Nachrichten von Benutzern zu reagieren und entsprechende Antworten zu generieren.   |   90 |
+| 3.A  |   Filip Kritzner            |   Integration einer Cookie-Akzeptanzfunktion, um sicherzustellen, dass der Bot vorgeschlagene Cookies akzeptieren kann, wenn sie angeboten werden.    |   30 |
+| 4.A  |   Filip Mitrovic              |   Programmierung des Chatbot-Verhaltens, um nach dem Start auf die Startseite zu navigieren und die Nachrichtenoption zu wählen.   |   45 |
+| 5.A  |   Filip Kritzner              |   Implementierung der Funktion, um die Liste der verfügbaren Personen anzuzeigen, denen der Bot schreiben kann, und Auswahl der gewünschten Person durch den Benutzer.   |   60 |
+| 6.A  |   Raul Gilardoni              |   Entwicklung der Funktion, um den Chatverlauf zwischen dem Bot und der ausgewählten Person anzuzeigen und die Schreibfunktion zu aktivieren.   |   45 |
+| 7.A  |   Filip Mitrovic              |   Programmierung des Bot, um eine Nachricht an die ausgewählte Person zu senden, basierend auf dem angezeigten Chatverlauf.   |   45 |
+| 8.A  |   Lennard Bühler              |   Sicherstellen, dass der Bot Nachrichten an die ausgewählte Person senden kann, indem er die gesendeten Nachrichten im Chatverlauf anzeigt.   |   45 |
+| 9.A  |   Raul Gilardoni              |   Implementierung einer Funktion, um eingehende Nachrichten von Benutzern zu erfassen und vom Chatbot zu lesen.   |   60 |
+| 10.A |   Lennard Bühler              |   Entwickeln einer Antwortfunktion im Chatbot, um auf gelesene Nachrichten zu reagieren und entsprechende Antworten zu generieren.   |   60 |
+| 11.A |   Raul Gilardoni             |   Programmierung des Chatbots, um eine Frage nach der Anzahl der Nachrichten zu stellen, die ausgegeben werden sollen, und die vom Benutzer angegebene Anzahl zu berücksichtigen.   |   60 |
+| 12.A |   Filip Kritzner              |   Implementierung einer Funktion im Chatbot, um Nachrichten auszugeben, die vom Benutzer angefordert wurden, basierend auf der Eingabe des Benutzers.   |   60 |
 
 
 
@@ -81,10 +93,20 @@ Wir haben uns für die geplanten Arbeitspakete entschieden.
 
 ## 4 Realisieren
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  | 24.11.23 |  Lennard Bühler              |240|290 |
-| 2.A  |24.11.23 |   Lennard Bühler               |120|150|
+| AP-№ | Datum      | Zuständig       | Beschreibung | geplante Zeit (min) | tatsächliche Zeit (min) |
+| ---- | ----------| --------------- | ------------- | ----------------- | ----------------------- |
+| 1.A  | 19.01.2024 | Filip Mitrovic  | Einrichten des Instagram-Login-Prozesses im Chatbot-Programm, um sicherzustellen, dass der Bot sich erfolgreich in den Instagram-Account einloggen kann. | 60 | 70 |
+| 2.A  | 19.01.2024 | Lennard Bühler  | Implementierung einer Funktion im Chatbot, um auf eingehende Nachrichten von Benutzern zu reagieren und entsprechende Antworten zu generieren. | 90 | 80 |
+| 3.A  | 19.01.2024 | Filip Kritzner  | Integration einer Cookie-Akzeptanzfunktion, um sicherzustellen, dass der Bot vorgeschlagene Cookies akzeptieren kann, wenn sie angeboten werden. | 30 | 40 |
+| 4.A  | 19.01.2024 | Filip Mitrovic  | Programmierung des Chatbot-Verhaltens, um nach dem Start auf die Startseite zu navigieren und die Nachrichtenoption zu wählen. | 45 | 50 |
+| 5.A  | 02.02.2024 | Filip Kritzner  | Implementierung der Funktion, um die Liste der verfügbaren Personen anzuzeigen, denen der Bot schreiben kann, und Auswahl der gewünschten Person durch den Benutzer. | 60 | 55 |
+| 6.A  | 02.02.2024 | Raul Gilardoni  | Entwicklung der Funktion, um den Chatverlauf zwischen dem Bot und der ausgewählten Person anzuzeigen und die Schreibfunktion zu aktivieren. | 45 | 60 |
+| 7.A  | 02.02.2024 | Filip Mitrovic  | Programmierung des Bot, um eine Nachricht an die ausgewählte Person zu senden, basierend auf dem angezeigten Chatverlauf. | 45 | 45 |
+| 8.A  | 02.02.2024 | Lennard Bühler  | Sicherstellen, dass der Bot Nachrichten an die ausgewählte Person senden kann, indem er die gesendeten Nachrichten im Chatverlauf anzeigt. | 45 | 50 |
+| 9.A  | 23.02.2024 | Raul Gilardoni  | Implementierung einer Funktion, um eingehende Nachrichten von Benutzern zu erfassen und vom Chatbot zu lesen. | 60 | 70 |
+| 10.A | 02.02.2024 | Lennard Bühler  | Entwickeln einer Antwortfunktion im Chatbot, um auf gelesene Nachrichten zu reagieren und entsprechende Antworten zu generieren. | 60 | 65 |
+| 11.A | 23.02.2024 | Raul Gilardoni  | Programmierung des Chatbots, um eine Frage nach der Anzahl der Nachrichten zu stellen, die ausgegeben werden sollen, und die vom Benutzer angegebene Anzahl zu berücksichtigen. | 60 | 60 |
+| 12.A | 19.01.2024 | Filip Kritzner  | Implementierung einer Funktion im Chatbot, um Nachrichten auszugeben, die vom Benutzer angefordert wurden, basierend auf der Eingabe des Benutzers. | 60 | 60 |
 
 
 
