@@ -27,11 +27,6 @@ def Login():
     Notification_button = browser.find_element(By.XPATH, '//button[text()="Not Now"]')
     Notification_button.click()
 
-def zähle_andere_nachrichten():
-    andere_nachrichten = browser.find_elements(By.XPATH, '//div[@class="x6prxxf x1fc57z9 x1yc453h x126k92a xzsf02u"]')
-    global andere_bereits_geschriebene_nachrichten
-    andere_bereits_geschriebene_nachrichten = len(andere_nachrichten)
-
 def WriteMessage(message):
     textbox_div = browser.find_element(By.XPATH, '//div[@aria-label="Message"]')
     for x in message:
@@ -42,31 +37,36 @@ def AnalyseMessages(nachrichten_liste):
         global meine_bereits_geschriebenen_nachrichten
         if (len(nachrichten_liste) > meine_bereits_geschriebenen_nachrichten):
             WriteMessage(nachrichten_liste[meine_bereits_geschriebenen_nachrichten])
-        meine_bereits_geschriebenen_nachrichten += 1
+            meine_bereits_geschriebenen_nachrichten += 1
+            return False
+        else:
+            return True
 
 def warte_auf_neue_nachrichten():
     neue_nachrichten = browser.find_elements(By.XPATH, '//div[@class="x6prxxf x1fc57z9 x1yc453h x126k92a xzsf02u"]')
     global andere_bereits_geschriebene_nachrichten
-    if (andere_bereits_geschriebene_nachrichten < len(neue_nachrichten)):
-        zähle_andere_nachrichten()
-        AnalyseMessages(nachrichten_liste)
-        return True
-    else:
-        return False
+    global meine_bereits_geschriebenen_nachrichten
+    n = 0
+    if (len(andere_bereits_geschriebene_nachrichten) < len(neue_nachrichten)):     
+        n = len(neue_nachrichten) - len(andere_bereits_geschriebene_nachrichten)
+        n -= meine_bereits_geschriebenen_nachrichten
+    if (n > 0):
+        if AnalyseMessages(nachrichten_liste):
+            return True
+    return False
 
 def FindUsersWithDMs(People_In_DMs, nachrichten_liste):
     for x in People_In_DMs:
-        global meine_bereits_geschriebenen_nachrichten
-        meine_bereits_geschriebenen_nachrichten = 0    
         x.click()
-        sleep(2)
-        zähle_andere_nachrichten()
-        meine_nachrichten = browser.find_elements(By.XPATH, '/html/body/div[2]/div/div/div[2]/div/div/div[1]/div[1]/div[2]/section/div/div/div/div[1]/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div[1]/div/div/div/div/div/div/div[3]/div/div[5]/div/div/div/div[1]/div/div[3]/div[2]/div[1]/div/div[1]/div[2]/div/div[2]/div/div')
-        AnalyseMessages(nachrichten_liste)
-        nicht_gefunden = True
-        while warte_auf_neue_nachrichten():
-            sleep(.5)
-            print("restart")
+        sleep(5)
+        global andere_bereits_geschriebene_nachrichten
+        global meine_bereits_geschriebenen_nachrichten
+        andere_bereits_geschriebene_nachrichten = browser.find_elements(By.XPATH, '//div[@class="x6prxxf x1fc57z9 x1yc453h x126k92a xzsf02u"]')
+        meine_bereits_geschriebenen_nachrichten = 0  
+        while (True):
+            sleep(2.5)
+            if (warte_auf_neue_nachrichten()):
+                break
 
 def CheckMessages(nachrichten_liste):
     browser.find_element(By.XPATH, '//a[@href="/direct/inbox/"]').click()
