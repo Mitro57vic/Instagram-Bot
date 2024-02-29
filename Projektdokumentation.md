@@ -118,7 +118,7 @@ Wir haben uns für die geplanten Arbeitspakete entschieden.
 | TC-№ | Datum    | Resultat        | Tester         | Laptop                 |
 | ---- | -------- | --------------- | -------------- | ---------------------- |
 | 1.1  | 23.02.24 | Funktioniert    | Mitrovic       | HP Spectre Windows 11  |
-| 2.1  | 23.02.24 | Funktioniert nicht    | Mitrovic       | HP Spectre Windows 11  |
+| 2.1  | 23.02.24 | Funktioniert    | Mitrovic       | HP Spectre Windows 11  |
 | 3.1  | 23.02.24 | Funktioniert    | Kritzner       | Acer Windows 11        |
 | 4.1  | 23.02.24 | Funktioniert    | Mitrovic       | HP Spectre Windows 11  |
 | 5.1  | 23.02.24 | Funktioniert    | Kritzner       | Acer Windows 11        |
