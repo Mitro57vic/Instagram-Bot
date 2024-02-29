@@ -27,31 +27,35 @@ def Login():
     Notification_button = browser.find_element(By.XPATH, '//button[text()="Not Now"]')
     Notification_button.click()
 
-def WriteMessage(message):
+def schreibe_nachricht(message):
     textbox_div = browser.find_element(By.XPATH, '//div[@aria-label="Message"]')
     for x in message:
         textbox_div.send_keys(x)
     textbox_div.send_keys(Keys.ENTER)
 
-def AnalyseMessages(nachrichten_liste):
+def analysiere_nachrichten(nachrichten_liste):
         global meine_bereits_geschriebenen_nachrichten
         if (len(nachrichten_liste) > meine_bereits_geschriebenen_nachrichten):
-            WriteMessage(nachrichten_liste[meine_bereits_geschriebenen_nachrichten])
+            schreibe_nachricht(nachrichten_liste[meine_bereits_geschriebenen_nachrichten])
             meine_bereits_geschriebenen_nachrichten += 1
             return False
         else:
             return True
 
-def warte_auf_neue_nachrichten():
+def warte_auf_neue_nachrichten(erste_nachricht):
     neue_nachrichten = browser.find_elements(By.XPATH, '//div[@class="x6prxxf x1fc57z9 x1yc453h x126k92a xzsf02u"]')
     global andere_bereits_geschriebene_nachrichten
     global meine_bereits_geschriebenen_nachrichten
+    global nachrichten_liste
+    if (erste_nachricht):
+        analysiere_nachrichten(nachrichten_liste)
+        return False
     n = 0
     if (len(andere_bereits_geschriebene_nachrichten) < len(neue_nachrichten)):     
         n = len(neue_nachrichten) - len(andere_bereits_geschriebene_nachrichten)
         n -= meine_bereits_geschriebenen_nachrichten
     if (n > 0):
-        if AnalyseMessages(nachrichten_liste):
+        if analysiere_nachrichten(nachrichten_liste):
             return True
     return False
 
@@ -62,21 +66,19 @@ def FindUsersWithDMs(People_In_DMs, nachrichten_liste):
         global andere_bereits_geschriebene_nachrichten
         global meine_bereits_geschriebenen_nachrichten
         andere_bereits_geschriebene_nachrichten = browser.find_elements(By.XPATH, '//div[@class="x6prxxf x1fc57z9 x1yc453h x126k92a xzsf02u"]')
-        meine_bereits_geschriebenen_nachrichten = 0  
+        meine_bereits_geschriebenen_nachrichten = 0 
+        erste_nachricht = True
         while (True):
-            sleep(2.5)
-            if (warte_auf_neue_nachrichten()):
+            sleep(.5)
+            if (warte_auf_neue_nachrichten(erste_nachricht)):
                 break
+            erste_nachricht = False
 
-def CheckMessages(nachrichten_liste):
+def pruefe_nachrichten(nachrichten_liste):
     browser.find_element(By.XPATH, '//a[@href="/direct/inbox/"]').click()
     sleep(2)
     People_Writing = browser.find_elements(By.XPATH, '//div[@class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x87ps6o x1lku1pv x1a2a7pz x168nmei x13lgxp2 x5pf9jr xo71vjh x1lliihq xdj266r x11i5rnm xat24cr x1mh8g0r xg6hnt2 x18wri0h x1l895ks xbbxn1n xxbr6pl x1y1aw1k xwib8y2"]')
     FindUsersWithDMs(People_Writing, nachrichten_liste)
-    sleep(2)
-
-def CheckNotifications():
-    browser.find_element(By.XPATH, '//a[@href="/#"]').click()
     sleep(2)
 
 def frage_anzahl_nachrichten():
@@ -110,6 +112,6 @@ sleep(2)
 Login()
 
 sleep(5)
-CheckMessages(nachrichten_liste)
+pruefe_nachrichten(nachrichten_liste)
 
 browser.close()
