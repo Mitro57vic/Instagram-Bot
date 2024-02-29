@@ -126,9 +126,9 @@ Wir haben uns für die geplanten Arbeitspakete entschieden.
 | 7.1  | 23.02.24 | Funktioniert    | Mitrovic       | HP Spectre Windows 11  |
 | 8.1  | 23.02.24 | Funktioniert    | Kritzner       | Acer Windows 11        |
 | 9.1  | 23.02.24 | Funktioniert    | Mitrovic       | HP Spectre Windows 11  |
-| 10.1 | 23.02.24 | Funktioniert nicht   | Kritzner       | Acer Windows 11        |
+| 10.1 | 23.02.24 | Funktioniert   | Kritzner       | Acer Windows 11        |
 | 11.1 | 23.02.24 | Funktioniert    | Mitrovic       | HP Spectre Windows 11  |
-| 12.1 | 23.02.24 | Funktioniert    | Kritzner       | Acer Windows 11        |
+| 12.1 | 23.02.24 | Funktioniert nicht    | Kritzner       | Acer Windows 11        |
 
 
 
