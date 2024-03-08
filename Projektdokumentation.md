@@ -61,6 +61,7 @@ In diesem Projekt entwickeln wir einen Instagram Bot mit der Programmiersprache 
 
 ### 1.4 Diagramme
 
+![image](https://github.com/Mitro57vic/Instagram-Bot/assets/110892649/edd7a446-e88e-4f48-a738-037a62fea258)
 
 
 
