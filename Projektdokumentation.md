@@ -90,7 +90,7 @@ Arbeitspakete:
 
 ## 3 Entscheiden
 
-Wir haben uns für die geplanten Arbeitspakete entschieden.
+Wir haben uns entschieden das der Chatbot nachrichten senden kann, weil sons wäre es ein etwas unnötiger chatbot wenn er nicht schreiben kann. Wir haben uns entschieden das der Bot sich selbst über die Instagram.com Webseite anmeldet und die Coockies akzeptiert, weil dies ein nützliche zusatzfunktion ist.
 
 ## 4 Realisieren
 
